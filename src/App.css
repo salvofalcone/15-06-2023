@@ -1,0 +1,22 @@
+body {
+  background-color: #000000e7;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 40px auto;
+  padding: 12px;
+
+  border-radius: 12px;
+  background-color: var(--platinum);
+  width: fit-content;
+}
+
+.todo__container {
+  display: flex;
+  gap: 20px;
+}

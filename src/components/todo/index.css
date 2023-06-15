@@ -1,0 +1,49 @@
+@import "../../root.css";
+
+/* TODO LIST */
+.todo__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 400px;
+
+
+}
+
+
+/* not completed */
+.todo__li {
+  list-style-type: none;
+  text-align: center;
+  padding: 14px;
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 2px solid var(--blue);
+  background-color: var(--jungle);
+  transition: background 400ms;
+}
+
+.todo__li::first-letter {
+  text-transform: capitalize;
+}
+
+.todo__li:hover {
+  transition: all 200ms;
+}
+
+/* completed */
+.done {
+  background-color: var(--pumpkin);
+  text-decoration: line-through;
+  opacity: 0.5;
+  transition: background 400ms;
+}
+
+.done:hover {
+  opacity: 1;
+  background-color: var(--pumpkin);
+  text-decoration: none;
+}

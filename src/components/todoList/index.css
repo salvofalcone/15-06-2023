@@ -1,0 +1,44 @@
+@import "../../root.css";
+
+.todo__list {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  overflow-y: scroll;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 12px;
+  margin-right: 4px;
+}
+
+.btn__style {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.6px);
+  -webkit-backdrop-filter: blur(10.6px);
+
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.filter__btn {
+  width: 120px;
+  height: 40px;
+  margin: 12px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.608);
+}
+
+.filter__btn:hover {
+  background-color: rgb(200, 183, 216);
+}
+
